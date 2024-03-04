@@ -1,0 +1,588 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+ a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    margin: 20px 15px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50px;
+    
+    font-size: 15px;
+    transition: all 1s;
+  }
+
+p{
+    line-height: 1.86em;
+}
+h2{
+    font-size: 32px;
+    margin: 20px 0;
+}
+h3{
+    margin: 20px 0; 
+}
+.head{
+    background: linear-gradient(-32deg, rgb(69, 104, 220), rgb(176, 106, 179));
+
+}
+.contaner1{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 85%;
+    margin: 80px auto;
+}
+/* nav */
+.logo{
+    
+    float: left;
+    color: #fff;
+}
+.list{
+    float: right;
+    color: #fff;
+}
+.list .item{
+    float: left;
+    margin: 30px 20px;
+    font-size: 20px;
+    color: #fff;
+} 
+   /*navbare  */
+.photo1{
+    width: 50%;
+    float: left;
+}
+.photo1 img{
+    width: 384px;
+    height: 716px;
+    margin: 0 0 20px 80px;
+}
+.navbar .text_header{
+    width: 50%;
+    float: right;
+    color: #fff;
+    padding: 20px;
+    margin: 50px 0;
+    font-size: 17px;
+}
+
+.navbar .text_header h1{
+    margin: 20px 0;
+}
+
+/* button */
+
+.btn1{
+    color: #000;
+    background-color:#fff;
+    border-color: #fff;
+
+    
+}
+
+.btn1:hover{
+    color: #fff;
+    background-color: #4868db;
+    border-color: #4868db;
+}
+
+.btn2{
+    color: #fff;
+background-color: transparent;
+  border-color: #fff;
+}
+
+
+
+.btn2:hover {
+    color: #fff;
+    background-color: #4868db;
+    border-color: #4868db;
+}
+/* section1 */
+.img_section {
+    width: 50%;
+    float: right;
+}
+
+.text {
+    width: 50%;
+    float: left; 
+    margin-top: 70px;
+    padding: 70px;
+    
+}
+
+
+
+/* section2 */
+.section2{
+    background-color: rgba(240, 248, 255, 0.475);
+}
+.img1{
+    width: 50%;
+    float: left;
+    margin: 30px 0;
+}
+
+.text{
+   width: 50%;
+   float: left;
+   margin-top: 200px;
+   padding: 40px;
+   
+
+}
+.text p i{
+    transform: scale(1.7);
+
+}
+
+/* section3 */
+.photo{
+    width: 50%;
+    float: right;
+    
+}
+.text_t{
+    width: 50%;
+    float: right;
+    margin-top: 70px;
+    padding: 50px 0;
+}
+.text_t p i{
+    transform: scale(1.7);
+
+
+}
+.btn3{
+    background-color: #4868db;
+    color: #fff;
+}
+.btn3:hover{
+    color: #fff;
+    /* transform: translateX(5); */
+ 
+  
+    background-color: #000;
+}
+
+/* section3 */
+.section3 .photo{
+    width: 50%;
+}
+.photo img{
+    width: 70%;
+    margin-left: 60px;
+}
+.text2 .icon{
+    transform: scale(1.7);
+    
+    
+    background-color: #4868db;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+
+
+
+/* section 4 */
+
+.text2 .content_1
+{
+   width: 28.33%; /* 85/4 =28.33 acording to width of parant div */
+   float: left;
+   margin: 40px 20px 40px 0;
+}
+
+.text2 .content_2
+ {
+    width: 28.33%; /*85/4 =28.33acording to width of parant div */
+    float: left;
+    margin: 40px 0 40px 40px;
+}
+
+
+.text2 .Premium_Support
+{
+   width: 28.33%; /* 85/4 =28.33acording to width of parant div  */
+   float: left;
+   margin: 40px 20px 40px 0;
+}
+.text2 .setting_comment
+ {
+    width: 28.33%; /* 85/4 =28.33acording to width of parant div  */
+    float: left;
+    margin: 40px 0 40px 40px;
+}
+.text2 .icon{
+    transform: scale(1.7);
+
+}
+
+/* section5 */
+.section5{
+    background-color: #4868db;
+}
+ .active .icons{
+    transform: scale(1.7);
+
+ }
+
+ /*  i calling  all of them in one sentance  */
+.active .icons,
+.active p{
+   text-align: center;
+}
+.active .number{
+    font-size: 52px;
+    text-align: center;
+   
+}
+
+.like,
+.home,
+.home,
+.Comments
+{
+    margin: auto;
+    padding: 15px;
+    width: 21.25%;
+    float: left;
+}
+
+
+
+/* section6 */
+.section_header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.googl,
+.apple,
+.microsoft{
+    width: 31%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(223, 223, 223);
+
+
+
+    
+}
+
+.googl-2,
+.microsoft-2,
+.apple-2{
+  
+    width: 31%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+
+/* section 7 */
+
+
+
+.div_amir{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+    text-align:center;
+    /* background-color: rgb(224, 222, 222); */
+}
+.div_amir p{
+    font-size: 20px;
+}
+.div_amir h2{
+    font-weight: 300;
+}
+.div_amir .btn11{
+    padding: 5px;
+ background-color: #4868db
+
+
+
+
+}
+.div_amir .btn11:hover{
+    padding: 5px;
+    color: #fff;
+    background-color: #000;
+
+}
+
+
+.div_amir.btn22{
+    padding: 5px;
+    color: #fff;
+background-color  : transparent;
+}
+.div_amir .btn22:hover{
+    padding: 5px;
+    background-color: #4868db;
+    border-color: #4868db;
+}
+ .section7{
+    background-color: rgba(236, 234, 234, 0.911);
+ }
+ 
+
+
+
+/* ssection 8 */
+.section8{
+    margin: 0;
+    background-color:rgba(153, 150, 150, 0.815);
+}
+.footer .footer_item{
+    margin: 10px 0;
+
+}
+.product,
+.CUSTOMERS,
+.SUPPORT,
+.COMPANY,
+.RESOURCES{
+    width: 20%;
+    float: left;
+}
+
+/* coby and right */
+.cobe_right{
+    background-color: rgb(180, 184, 184);
+}
+.cobe_right p{
+    color: #fff;
+    display: inline-block;
+    padding: 50px 0;
+    float: left;
+}
+.footer_logo{
+    float: right;
+}
+.footer_logo .icon_footer{
+    float: left;
+    margin: 50px 20px;
+}
+
+
+.icon_footer{
+    transform: scale(1.7);
+    
+    transition: all 0.5s;
+    backgicon_footerround: transparent;
+
+}
+.icon_footer:hover{
+    transform: scale(2.2);
+    background-color: rgb(62, 81, 185);
+}
+
+.g{
+    backgicon_footerround: transparent;
+}
+.g:hover{
+    background-color: rgb(214, 60, 60);
+
+}
+/* ============================ */
+/*  the scound page fueatures  */
+
+
+/* header nav bar  */
+.head1{
+
+    background-color: #fff;
+}
+
+
+/*  start section 1  */
+
+.contaner1 .nav .logo2 {
+    color:gray;
+}
+.contaner1 .nav .list2 .item a{
+    color:gray;
+}
+.contaner1,
+.contaier2 {
+ 
+    width: 90%;
+    margin: auto;
+  
+}
+.section1{
+    padding-top: 20px;
+    background-color: rgba(218, 215, 215, 0.897);
+}
+/*  start section 2 */
+
+
+.section_head .textTT h2 {
+  
+    text-align: center;
+    
+}
+
+.section_head .textTT p {
+  
+    text-align: center;
+   
+}
+.contint_and_telphone {
+    width: 85%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.contint_and_telphone .div1,
+.div2,
+.div3{
+    width: 33%;
+    float: left;
+    padding: 10px;
+
+}
+.div1 .div_sub .left_icon{
+    width: 20%;
+        
+    float: right;
+    margin-top: 30px;
+    transform: scale(1.7);
+
+}
+
+.div1 .div_sub .left_text{
+    width: 80%;
+        
+    float: right;
+    
+
+}
+
+.div_sub{
+    width:100% ;
+    float: right;
+}
+
+.AA .left_text{
+    width: 80%;
+float: right;
+}
+
+.div3 .div_sub .left_icon{
+    margin: 20px;
+    width: 20%;
+        
+    float: left;
+    margin-top: 30px;
+    transform: scale(1.7);
+
+
+}
+
+
+
+.left_text h3  p{
+    float: left;
+}
+
+
+
+
+
+
+/* start section 4 */
+.ph.photo{
+    width: 50%;
+    float: left;
+    
+}
+.te1{
+    width: 50%;
+
+ margin-top:0px;
+    padding: 10px;
+    float: right;
+
+}
+
+.btn7{
+    color: #fff;
+    font-weight: 400;
+    background-color: #4868db;
+
+}
+.btn7:hover{
+    color: #fff;
+    font-weight: 400;
+    background-color: #000;
+}
+/*  section 5 */
+.ph2 .photo{
+    float: right;
+}
+
+.te2{
+    
+    width: 50%;
+
+ margin-top:0px;
+    padding: 10px;
+    float: left;
+
+
+}
+
+.sec5{
+    background-color: rgba(248, 248, 248, 0.959);
+}
+
+
+
+/* section 6 */
+.icon_like i{
+    float: left;
+    transform: scale(1.3);
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
